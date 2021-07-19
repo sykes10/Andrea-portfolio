@@ -1,6 +1,15 @@
 <template>
   <footer
-    class="container flex flex-col md:flex-row justify-between items-center py-2 text-gray font-karla"
+    class="
+      container
+      flex flex-col
+      md:flex-row
+      justify-between
+      items-center
+      py-2
+      text-gray
+      font-karla
+    "
   >
     <small class="uppercase text-base order-1 md:order-none mt-4 md:mt-0"
       >© {{ year }} Andrea De Armas</small
@@ -37,8 +46,7 @@ export default defineComponent({
         text: 'Email',
       },
       {
-        href:
-          'https://www.linkedin.com/in/andrea-alejandra-de-armas-nu%C3%B1ez-200200ba/',
+        href: 'https://www.linkedin.com/in/andrea-alejandra-de-armas-nu%C3%B1ez-200200ba/',
         text: 'Linkedin',
       },
     ]);
