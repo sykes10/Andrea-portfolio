@@ -1,10 +1,4 @@
 @font-face {
-  font-family: 'young';
-  src: url('~assets/fonts/YoungSerif-Regular.otf') format('opentype');
-  font-display: auto;
-}
-
-@font-face {
   font-family: 'karla';
   src: url('~assets/fonts/Karla-VariableFont_wght.ttf')
       format('truetype supports variations'),
@@ -13,4 +7,21 @@
   font-weight: 100 1000;
   font-stretch: 25% 151%;
   font-display: auto;
+}
+
+@font-face {
+  font-family: 'baske';
+  src: url('~assets/fonts/LibreBaskerville-Regular.ttf')
+      format('truetype supports variations'),
+    url('~assets/fonts/LibreBaskerville-Regular.ttf')
+      format('truetype-variations');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'baske';
+  src: url('~assets/fonts/LibreBaskerville-Bold.ttf')
+      format('truetype supports variations'),
+    url('~assets/fonts/LibreBaskerville-Bold.ttf') format('truetype-variations');
+  font-weight: bold;
 }

@@ -8,14 +8,14 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '5rem',
+        '6xl': '3.5rem',
       },
       lineHeight: {
         tight: '1.15',
       },
       width: {
         100: '24rem',
+        '4xl': '50rem',
       },
       height: {
         120: '32.75rem',
@@ -24,7 +24,7 @@ module.exports = {
       maxWidth: (theme) => theme('width'),
       fontFamily: {
         karla: 'karla',
-        young: 'young',
+        baske: 'baske',
       },
       colors: {
         background: '#FAF7ED',

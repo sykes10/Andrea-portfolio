@@ -1,7 +1,7 @@
 <template>
   <header class="container flex justify-between items-center py-2 mt-8 md:mt-0">
     <nuxt-link to="/" class="no-colour">
-      <h1 class="font-medium text-2xl font-young leading-tight">
+      <h1 class="font-medium text-2xl font-baske leading-tight">
         Andrea<br />DN.
       </h1>
     </nuxt-link>

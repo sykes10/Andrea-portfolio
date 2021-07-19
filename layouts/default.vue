@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-background h-auto min-h-screen font-young overflow-hidden">
+  <div class="bg-background h-auto min-h-screen font-baske overflow-hidden">
     <app-header />
     <nuxt class="container" />
     <app-footer />
