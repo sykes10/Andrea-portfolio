@@ -1,4 +1,11 @@
 module.exports = {
+  purge: [
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+  ],
   theme: {
     container: {
       center: true,
@@ -7,8 +14,12 @@ module.exports = {
       },
     },
     extend: {
+      spacing: {
+        13: '3.25rem',
+      },
       fontSize: {
-        '6xl': '3.5rem',
+        '4xl': ['2.5rem', '3.25rem'],
+        '6xl': ['3.25rem', '4.25rem'],
       },
       lineHeight: {
         tight: '1.15',
@@ -32,6 +43,7 @@ module.exports = {
         gray: {
           default: '#191919',
         },
+        peach: '#D99079',
       },
       animation: {
         wiggle: 'wiggle 1s linear infinite',

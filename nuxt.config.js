@@ -14,7 +14,11 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/css/transitions.css', '~/assets/css/typography.css'],
+  css: [
+    '~/assets/css/transitions.css',
+    '~/assets/css/typography.css',
+    '~/assets/css/global.css',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -48,10 +52,10 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
+    // // https://go.nuxtjs.dev/pwa
+    // '@nuxtjs/pwa',
+    // // https://go.nuxtjs.dev/content
+    // '@nuxt/content',
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/content-config)

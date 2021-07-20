@@ -1,11 +1,9 @@
 <template>
   <header class="container flex justify-between items-center py-2 mt-8 md:mt-0">
     <nuxt-link to="/" class="no-colour">
-      <h1 class="font-medium text-2xl font-baske leading-tight">
-        Andrea<br />DN.
-      </h1>
+      <h1 class="font-medium text-2xl leading-tight">Andrea<br />DN.</h1>
     </nuxt-link>
-    <p class="font-karla uppercase font-bold">
+    <p class="uppercase font-bold">
       <span class="block sm:inline">{{ weekday }},</span> {{ month }}
       {{ monthDay }}
     </p>
