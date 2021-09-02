@@ -1,6 +1,7 @@
 html {
   @apply font-karla;
   @apply text-base;
+  scroll-behavior: smooth;
 }
 
 h1,

@@ -19,7 +19,7 @@
     "types": [
       "@types/node",
       "@nuxt/types",
-      // "@nuxt/content"
+      "~/types/custom.d.ts"
     ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]

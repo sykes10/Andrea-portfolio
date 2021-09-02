@@ -21,9 +21,6 @@ module.exports = {
         '4xl': ['2.5rem', '3.25rem'],
         '6xl': ['3.25rem', '4.25rem'],
       },
-      lineHeight: {
-        tight: '1.15',
-      },
       width: {
         100: '24rem',
         '4xl': '50rem',

@@ -16,7 +16,8 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.15.2",
     "nuxt": "^2.15.8",
-    "nuxt-compress": "^5.0.0"
+    "nuxt-compress": "^5.0.0",
+    "nuxt-svg-loader": "^1.2.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
