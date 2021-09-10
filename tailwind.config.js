@@ -7,12 +7,6 @@ module.exports = {
     './nuxt.config.{js,ts}',
   ],
   theme: {
-    container: {
-      center: true,
-      padding: {
-        default: '1rem',
-      },
-    },
     extend: {
       spacing: {
         13: '3.25rem',
@@ -54,4 +48,32 @@ module.exports = {
     },
   },
   mode: 'jit',
+  corePlugins: {
+    container: false,
+  },
+  plugins: [
+    ({ addComponents, theme }) => {
+      addComponents({
+        '.container': {
+          marginInline: 'auto',
+          paddingInline: theme('spacing.4'),
+          maxWidth: theme('screens.sm'),
+
+          // Breakpoints
+          '@screen sm': {
+            maxWidth: theme('screens.sm'),
+          },
+          '@screen md': {
+            maxWidth: theme('screens.md'),
+          },
+          '@screen lg': {
+            maxWidth: theme('screens.lg'),
+          },
+          '@screen xl': {
+            maxWidth: '1232px',
+          },
+        },
+      });
+    },
+  ],
 };

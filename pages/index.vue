@@ -17,7 +17,7 @@
         src="~/assets/images/andrea-header.png"
         alt="Andrea de armas ilustration"
         loading="lazy"
-        class="w-3/5 md:w-100 h-full md:h-120 object-cover"
+        class="w-3/5 md:w-100 h-full md:h-120"
       />
       <div class="space-y-13 mt-10 md:mt-0">
         <h2 class="text-6xl font-bold">
@@ -33,28 +33,68 @@
         </a>
       </div>
     </section>
-    <section id="works" class="space-y-44">
-      <article>
-        <img
-          src="~/assets/images/emailoctopus.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full h-full object-cover mb-10"
-        />
-        <h3 class="text-4xl mb-3 font-bold">
-          Re-branding a trusted Email platform
-        </h3>
-        <p class="text-peach uppercase">Branding - UX/UI Design</p>
-      </article>
+    <section id="works" class="space-y-44 max-w-screen-lg mx-auto">
+      <nuxt-link to="/case-study/emailoctopus">
+        <article>
+          <img
+            src="~/assets/images/emailoctopus.png"
+            alt="emailoctopus design"
+            loading="lazy"
+            class="w-full mb-10"
+          />
+          <h3 class="text-4xl mb-3 font-bold">
+            Re-branding a trusted Email platform
+          </h3>
+          <p class="text-peach uppercase">Branding - UX/UI Design</p>
+        </article>
+      </nuxt-link>
       <article class="max-w-4xl mx-auto">
         <img
           src="~/assets/images/ticket-tailor.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full h-full object-cover mb-10"
+          class="w-full mb-10"
         />
         <h3 class="text-4xl mb-3 font-bold">
           A new identity for a group of dreamers
+        </h3>
+        <p class="text-peach uppercase">UX/UI Design</p>
+      </article>
+      <div class="flex gap-20 mb-44">
+        <article class="w-1/2">
+          <img
+            src="~/assets/images/football-app.png"
+            alt="football app design"
+            loading="lazy"
+            class="w-full mb-10"
+          />
+          <h3 class="text-4xl mb-3 font-bold">
+            Making a space or the ultimate fan
+          </h3>
+          <p class="text-peach uppercase">UX/UI Design</p>
+        </article>
+        <article class="w-1/2">
+          <img
+            src="~/assets/images/bussiness.png"
+            alt="bussiness design"
+            loading="lazy"
+            class="w-full mb-10"
+          />
+          <h3 class="text-4xl mb-3 font-bold">
+            Giving a hand to the small business
+          </h3>
+          <p class="text-peach uppercase">UX/UI Design</p>
+        </article>
+      </div>
+      <article class="mb-44">
+        <img
+          src="~/assets/images/atriom.png"
+          alt="atriom design"
+          loading="lazy"
+          class="w-full mb-10"
+        />
+        <h3 class="text-4xl mb-3 font-bold">
+          A startup looking for a clean and safe look
         </h3>
         <p class="text-peach uppercase">UX/UI Design</p>
       </article>

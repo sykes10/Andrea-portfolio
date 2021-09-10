@@ -7,7 +7,9 @@
       <work-svg class="mr-3 opacity-40" />
       <div>
         <p class="inline">Working at:</p>
-        <strong class="text-xl">Vector</strong>
+        <a href="https://vector-digital.co.uk/" class="text-xl font-bold">
+          Vector
+        </a>
       </div>
     </div>
   </header>

@@ -15,11 +15,7 @@
         >© {{ year }} Andrea De Armas</small
       >
       <ul class="flex space-x-6 font-bold">
-        <li
-          v-for="link in links"
-          :key="link.href"
-          class="rounded-full border border-gray py-2 px-5"
-        >
+        <li v-for="link in links" :key="link.href">
           <a
             class="uppercase"
             :href="link.href"
@@ -27,7 +23,9 @@
             noreferrer
             target="_blank"
           >
-            {{ link.text }}
+            <app-button>
+              {{ link.text }}
+            </app-button>
           </a>
         </li>
       </ul>
@@ -53,12 +51,14 @@
 
 <script lang="ts">
 import { defineComponent, computed } from '@nuxtjs/composition-api';
+import AppButton from '~/components/button.vue';
 import ArrowUp from '~/assets/svg/arrow-up.svg';
 
 export default defineComponent({
   name: 'app-header',
   components: {
     ArrowUp,
+    AppButton,
   },
   setup() {
     const links = computed(() => [
