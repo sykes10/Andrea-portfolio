@@ -34,7 +34,10 @@ module.exports = {
         gray: {
           default: '#191919',
         },
-        peach: '#D99079',
+        peach: {
+          400: '#FFC8BA',
+          default: '#D99079',
+        },
       },
       animation: {
         wiggle: 'wiggle 1s linear infinite',

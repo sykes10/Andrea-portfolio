@@ -168,6 +168,32 @@
         />
       </article>
       <divider class="mx-auto mb-24" />
+      <section class="flex justify-between gap-20">
+        <nuxt-link class="w-1/2" to="/case-study/ticket-tailor">
+          <img
+            src="~/assets/images/previews/img-tt-preview@2x.png"
+            alt="emailoctopus design"
+            loading="lazy"
+            class="mb-8"
+          />
+          <h3 class="text-4xl mb-3 font-bold">
+            A new identity for a group of dreamers
+          </h3>
+          <p class="text-peach uppercase">UX/UI Design</p>
+        </nuxt-link>
+        <nuxt-link class="w-1/2" to="/case-study/football-app">
+          <img
+            src="~/assets/images/previews/img-ft-preview@2x.png"
+            alt="emailoctopus design"
+            loading="lazy"
+            class="mb-8"
+          />
+          <h3 class="text-4xl mb-3 font-bold">
+            Giving a hand to the small business
+          </h3>
+          <p class="text-peach uppercase">UX/UI Design</p>
+        </nuxt-link>
+      </section>
     </section>
   </main>
 </template>
