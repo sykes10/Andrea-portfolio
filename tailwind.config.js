@@ -12,6 +12,7 @@ module.exports = {
         13: '3.25rem',
       },
       fontSize: {
+        '3xl': ['2rem', '2.75rem'],
         '4xl': ['2.5rem', '3.25rem'],
         '6xl': ['3.25rem', '4.25rem'],
       },
@@ -36,7 +37,7 @@ module.exports = {
         },
         peach: {
           400: '#FFC8BA',
-          default: '#D99079',
+          500: '#D99079',
         },
       },
       animation: {

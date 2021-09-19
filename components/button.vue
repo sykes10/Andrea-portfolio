@@ -10,7 +10,8 @@
       leading-8
       text-xl
       font-bold
-      h-13
+      md:h-13
+      h-11
     "
   >
     <slot></slot>

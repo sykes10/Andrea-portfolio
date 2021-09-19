@@ -1,39 +1,37 @@
 <template>
   <main class="lg:mb-24 mb-6">
-    <section class="flex justify-between items-center mt-24 mb-11">
+    <section class="flex justify-between items-center mt-13 md:mt-24 mb-11">
       <nuxt-link to="/">
-        <app-button class="h-13"> <arrow-left /> </app-button>
+        <app-button> <arrow-left /> </app-button>
       </nuxt-link>
       <a href="//emailoctopus.com/" target="_blank">
-        <app-button class="flex items-center text-xl h-13">
+        <app-button class="flex items-center">
           Live site<open-in-new class="ml-2" />
         </app-button>
       </a>
     </section>
     <section>
-      <article class="mb-24">
+      <article class="mb-14 md:mb-24">
         <img
           src="~/assets/images/emailoctopus.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
-        <div class="max-w-4xl mx-auto mb-14">
-          <h1 class="text-6xl font-bold mb-8">
-            Re-branding a trusted Email platform
-          </h1>
-          <p class="text-2xl mb-5">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h1 class="mb-8">Re-branding a trusted Email platform</h1>
+          <p class="mb-5">
             After a few years building up success with little Otto - The
             friendly octupus - on the side, EmailOctopus decided to push their
             growth even more, by giving him and their brand a full makeover.
             Having worked with them before for a refreshment of their lading
             page, in Vector we had the oportunity to work with them again.
           </p>
-          <p class="text-2xl mb-6">
+          <p class="mb-6">
             This project was done remotely from start to finish. Brand,
             Marketing website and Social media presence where re-designed.
           </p>
-          <p class="text-peach uppercase">Branding - UX/UI Design</p>
+          <span class="text-peach-500 uppercase">Branding - UX/UI Design</span>
         </div>
         <img
           src="~/assets/images/emailoctopus/img-eo-desktop-mobile.png"
@@ -42,9 +40,9 @@
           class="w-full"
         />
       </article>
-      <article class="mb-24">
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
-          <h2 class="text-4xl font-bold mb-8">The Beginning</h2>
+      <article class="mb-14 md:mb-24">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h2 class="mb-8">The Beginning</h2>
           <p class="mb-5">
             With the new values already established by the client, we made a
             group of workshops to define the direction we wanted to take with
@@ -62,9 +60,9 @@
           class="w-full flex-shrink-0 flex-grow-0"
         />
       </article>
-      <article class="mb-24">
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
-          <h2 class="text-4xl font-bold mb-8">Brand</h2>
+      <article class="mb-14 md:mb-24">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h2 class="mb-8">Brand</h2>
           <p>
             We started this phase by developing a group of moodboards to define
             an initial look and feel for the brand. From this we started to
@@ -76,9 +74,9 @@
           src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-14"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
         />
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <p class="mb-5">
             Brand wise, we agreed with the client an “Close to home” approach
             insted of a complete change, keept their sea theme and created the
@@ -94,12 +92,12 @@
           src="~/assets/images/emailoctopus/img-eo-brand@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
       </article>
-      <article class="mb-24">
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
-          <h2 class="text-4xl font-bold mb-8">Website</h2>
+      <article class="mb-14 md:mb-24">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h2 class="mb-8">Website</h2>
           <p>
             Once the basic brand elements were defined we started to generate
             wireframes and create components that were used as templates all
@@ -111,9 +109,9 @@
           src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-14"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
         />
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <p class="mb-5">
             Brand wise, we agreed with the client an “Close to home” approach
             insted of a complete change, keept their sea theme and created the
@@ -129,15 +127,15 @@
           src="~/assets/images/emailoctopus/img-eo-fulldesktop@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
         <img
           src="~/assets/images/emailoctopus/img-eo-mobile-group@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
-        <p class="mb-14 text-2xl max-w-4xl mx-auto">
+        <p class="mb-10 md:mb-14 max-w-4xl mx-auto">
           As mentioned previouly, one of the main objectives for the brand and
           the website was to bring the client and their emails to the main
           stage. We used real emails created by real clients across the website
@@ -147,12 +145,12 @@
           src="~/assets/images/emailoctopus/img-eo-elements@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
       </article>
-      <article class="mb-24">
-        <div class="max-w-4xl mx-auto text-2xl mb-14">
-          <h2 class="text-4xl font-bold mb-8">Social media kit</h2>
+      <article class="mb-14 md:mb-24">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h2 class="mb-8">Social media kit</h2>
           <p>
             Along with the brand and website, we created a design system for
             social media pieces. This piece of work included a detailed
@@ -164,34 +162,32 @@
           src="~/assets/images/emailoctopus/img-eo-socials@2x.png"
           alt="emailoctopus design"
           loading="lazy"
-          class="w-full mb-14"
+          class="w-full mb-10 md:mb-14"
         />
       </article>
-      <divider class="mx-auto mb-24" />
-      <section class="flex justify-between gap-20">
-        <nuxt-link class="w-1/2" to="/case-study/ticket-tailor">
+      <divider class="mx-auto mb-14 md:mb-24" />
+      <section
+        class="flex flex-col md:flex-row justify-between gap-14 md:gap-20"
+      >
+        <nuxt-link class="w-full md:w-1/2" to="/case-study/ticket-tailor">
           <img
             src="~/assets/images/previews/img-tt-preview@2x.png"
             alt="emailoctopus design"
             loading="lazy"
             class="mb-8"
           />
-          <h3 class="text-4xl mb-3 font-bold">
-            A new identity for a group of dreamers
-          </h3>
-          <p class="text-peach uppercase">UX/UI Design</p>
+          <h2 class="mb-3">A new identity for a group of dreamers</h2>
+          <span class="text-peach-500 uppercase">UX/UI Design</span>
         </nuxt-link>
-        <nuxt-link class="w-1/2" to="/case-study/football-app">
+        <nuxt-link class="w-full md:w-1/2" to="/case-study/football-app">
           <img
             src="~/assets/images/previews/img-ft-preview@2x.png"
             alt="emailoctopus design"
             loading="lazy"
             class="mb-8"
           />
-          <h3 class="text-4xl mb-3 font-bold">
-            Giving a hand to the small business
-          </h3>
-          <p class="text-peach uppercase">UX/UI Design</p>
+          <h2 class="mb-3">Giving a hand to the small business</h2>
+          <span class="text-peach-500 uppercase">UX/UI Design</span>
         </nuxt-link>
       </section>
     </section>

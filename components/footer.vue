@@ -8,7 +8,6 @@
         justify-between
         items-center
         py-2
-        text-gray
       "
     >
       <small class="uppercase text-base order-1 md:order-none mt-4 md:mt-0"
