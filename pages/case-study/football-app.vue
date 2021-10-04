@@ -111,13 +111,14 @@
           The team's section offers a smooth review of the team matches,
           classification and players profile.
         </p>
-        <div class="mb-10 md:mb-14 flex flex-col md:flex-row">
+        <div class="mb-10 md:mb-14 flex overflow-x-auto">
           <div
             class="
               flex flex-col
               justify-center
               items-center
-              w-full
+              flex-shrink-0 flex-grow-0
+              w-10/12
               md:w-1/4
               px-4
               mb-14
@@ -143,13 +144,14 @@
             the stats of the teams.
           </p>
         </div>
-        <div class="mb-10 md:mb-14 flex flex-col md:flex-row">
+        <div class="mb-10 md:mb-14 flex overflow-x-auto">
           <div
             class="
               flex flex-col
               justify-center
               items-center
-              w-full
+              flex-shrink-0 flex-grow-0
+              w-10/12
               md:w-1/4
               px-4
               mb-14
@@ -180,18 +182,42 @@
           The team's section offers a smooth review of the team matches,
           classification and players profile.
         </p>
-        <div class="mb-10 md:mb-14 flex flex-wrap flex-col md:flex-row">
+        <div class="mb-10 md:mb-14 flex overflow-x-auto">
           <div
             class="
               flex flex-col
               justify-center
               items-center
-              w-full
+              flex-shrink-0 flex-grow-0
+              w-10/12
               md:w-1/4
               px-4
               mb-14
             "
             v-for="(item, index) in officialStoreGrid"
+            :key="index"
+          >
+            <img
+              :src="require(`~/assets/images/football-app/${item.url}.png`)"
+              alt="emailoctopus design"
+              loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4"
+            />
+            <p>{{ item.copy }}</p>
+          </div>
+        </div>
+        <div class="mb-10 md:mb-14 flex overflow-x-auto">
+          <div
+            class="
+              flex flex-col
+              justify-center
+              items-center
+              flex-shrink-0 flex-grow-0
+              w-10/12
+              md:w-1/4
+              px-4
+              mb-14
+            "
             :key="index"
           >
             <img
@@ -282,13 +308,22 @@ export default defineComponent({
         { url: 'img-ft-mobile-store-03', copy: 'Product detail' },
         { url: 'img-ft-mobile-store-04', copy: 'Size selector' },
         { url: 'img-ft-mobile-store-05', copy: 'Product added' },
+      ];
+    });
+    const officialStoreGrid2 = computed(() => {
+      return [
         { url: 'img-ft-mobile-store-06', copy: 'Product on the bag' },
         { url: 'img-ft-mobile-store-07', copy: 'Shopping bag' },
         { url: 'img-ft-mobile-store-08', copy: 'Checkout' },
         { url: 'img-ft-mobile-store-09', copy: 'Confirmation screen' },
       ];
     });
-    return { teamAreaGrid, matchResumeGrid, officialStoreGrid };
+    return {
+      teamAreaGrid,
+      matchResumeGrid,
+      officialStoreGrid,
+      officialStoreGrid2,
+    };
   },
 });
 </script>

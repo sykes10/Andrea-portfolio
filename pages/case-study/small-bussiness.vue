@@ -4,17 +4,12 @@
       <nuxt-link to="/">
         <app-button> <arrow-left /> </app-button>
       </nuxt-link>
-      <a href="//www.tickettailor.com/" target="_blank">
-        <app-button class="flex items-center">
-          Live site<open-in-new class="ml-2" />
-        </app-button>
-      </a>
     </section>
     <section>
       <article class="mb-14 md:mb-24">
         <img
-          src="~/assets/images/ticket-tailor/img-tickettailor.png"
-          alt="emailoctopus design"
+          src="~/assets/images/small-bussiness/img-bussiness.png"
+          alt="small bussiness design"
           loading="lazy"
           class="w-full mb-10 md:mb-14"
         />

@@ -71,16 +71,18 @@
             <span class="text-peach-500 uppercase">UX/UI Design</span>
           </article>
         </nuxt-link>
-        <article class="w-full md:w-1/2">
-          <img
-            src="~/assets/images/bussiness.png"
-            alt="bussiness design"
-            loading="lazy"
-            class="w-full mb-4 md:mb-10"
-          />
-          <h3 class="mb-3">Giving a hand to the small business</h3>
-          <span class="text-peach-500 uppercase">UX/UI Design</span>
-        </article>
+        <nuxt-link class="w-full md:w-1/2" to="/case-study/small-bussiness">
+          <article>
+            <img
+              src="~/assets/images/bussiness.png"
+              alt="bussiness design"
+              loading="lazy"
+              class="w-full mb-4 md:mb-10"
+            />
+            <h3 class="mb-3">Giving a hand to the small business</h3>
+            <span class="text-peach-500 uppercase">UX/UI Design</span>
+          </article>
+        </nuxt-link>
       </div>
       <article class="mb-44">
         <img
