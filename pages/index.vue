@@ -84,16 +84,18 @@
           </article>
         </nuxt-link>
       </div>
-      <article class="mb-44">
-        <img
-          src="~/assets/images/atriom.png"
-          alt="atriom design"
-          loading="lazy"
-          class="w-full mb-4 md:mb-10"
-        />
-        <h3 class="mb-3">A startup looking for a clean and safe look</h3>
-        <span class="text-peach-500 uppercase">UX/UI Design</span>
-      </article>
+      <nuxt-link to="/case-study/atriom" class="mb-44 block">
+        <article>
+          <img
+            src="~/assets/images/atriom.png"
+            alt="atriom design"
+            loading="lazy"
+            class="w-full mb-4 md:mb-10"
+          />
+          <h3 class="mb-3">A startup looking for a clean and safe look</h3>
+          <span class="text-peach-500 uppercase">UX/UI Design</span>
+        </article>
+      </nuxt-link>
     </section>
   </main>
 </template>

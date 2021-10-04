@@ -22,7 +22,7 @@
             Girona F.C. as the team since they had no existing app, they are
             fairly recognized in Spain and their brand it's well developed.
           </p>
-          <span class="text-peach-500 uppercase">Wireframes - Ux - UI</span>
+          <span class="text-peach-500 uppercase">Wireframes - UX - UI</span>
         </div>
         <img
           src="~/assets/images/football-app/img-ft-mobile-group.png"
@@ -233,47 +233,25 @@
       </article>
 
       <divider class="mx-auto mb-14 md:mb-24" />
-      <section
-        class="flex flex-col md:flex-row justify-between gap-14 md:gap-20"
-      >
-        <nuxt-link class="w-full md:w-1/2" to="/case-study/ticket-tailor">
-          <img
-            src="~/assets/images/previews/img-tt-preview@2x.png"
-            alt="emailoctopus design"
-            loading="lazy"
-            class="mb-8"
-          />
-          <h2 class="mb-3">A new identity for a group of dreamers</h2>
-          <span class="text-peach-500 uppercase">UX/UI Design</span>
-        </nuxt-link>
-        <nuxt-link class="w-full md:w-1/2" to="/case-study/football-app">
-          <img
-            src="~/assets/images/previews/img-ft-preview@2x.png"
-            alt="emailoctopus design"
-            loading="lazy"
-            class="mb-8"
-          />
-          <h2 class="mb-3">Giving a hand to the small business</h2>
-          <span class="text-peach-500 uppercase">UX/UI Design</span>
-        </nuxt-link>
-      </section>
+      <footer-nav :items="footerNav"></footer-nav>
     </section>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent, useMeta, computed } from '@nuxtjs/composition-api';
+import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
 import OpenInNew from '~/assets/svg/open.svg';
 import Divider from '~/assets/svg/divider.svg';
-
 export default defineComponent({
   components: {
     AppButton,
     ArrowLeft,
     OpenInNew,
     Divider,
+    FooterNav,
   },
   head: {},
   setup() {
@@ -319,11 +297,30 @@ export default defineComponent({
         { url: 'img-ft-mobile-store-09', copy: 'Confirmation screen' },
       ];
     });
+    const footerNav = computed(() => {
+      return [
+        {
+          to: 'ticket-tailor',
+          img: 'img-tt-preview',
+          alt: 'ticket tailor design',
+          description: 'A new identity for a group of dreamers',
+          tag: 'Branding - UX/UI Design',
+        },
+        {
+          to: 'small-bussiness',
+          img: 'img-mc-preview',
+          alt: 'small bussiness design',
+          description: 'Giving a hand to the small business',
+          tag: 'UX/UI Design',
+        },
+      ];
+    });
     return {
       teamAreaGrid,
       matchResumeGrid,
       officialStoreGrid,
       officialStoreGrid2,
+      footerNav,
     };
   },
 });

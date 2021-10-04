@@ -213,36 +213,14 @@
         </div>
       </article>
       <divider class="mx-auto mb-14 md:mb-24" />
-      <section
-        class="flex flex-col md:flex-row justify-between gap-14 md:gap-20"
-      >
-        <nuxt-link class="w-full md:w-1/2" to="/case-study/emailoctopus">
-          <img
-            src="~/assets/images/previews/img-eo-preview@2x.png"
-            alt="small-bussiness design"
-            loading="lazy"
-            class="mb-8"
-          />
-          <h2 class="mb-3">A new identity for a group of dreamers</h2>
-          <span class="text-peach-500 uppercase">UX/UI Design</span>
-        </nuxt-link>
-        <nuxt-link class="w-full md:w-1/2" to="/case-study/football-app">
-          <img
-            src="~/assets/images/previews/img-ft-preview@2x.png"
-            alt="small-bussiness design"
-            loading="lazy"
-            class="mb-8"
-          />
-          <h2 class="mb-3">Giving a hand to the small business</h2>
-          <span class="text-peach-500 uppercase">UX/UI Design</span>
-        </nuxt-link>
-      </section>
+      <footer-nav :items="footerNav"></footer-nav>
     </section>
   </main>
 </template>
 
 <script lang="ts">
 import { computed, defineComponent, useMeta } from '@nuxtjs/composition-api';
+import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
 import OpenInNew from '~/assets/svg/open.svg';
@@ -254,6 +232,7 @@ export default defineComponent({
     ArrowLeft,
     OpenInNew,
     Divider,
+    FooterNav,
   },
   head: {},
   setup() {
@@ -286,7 +265,25 @@ export default defineComponent({
         },
       ];
     });
-    return { stepsGrid, stepsGrid2 };
+    const footerNav = computed(() => {
+      return [
+        {
+          to: 'football-app',
+          img: 'img-ft-preview',
+          alt: 'football app design',
+          description: 'Concept: Making a space for the ultimate fan',
+          tag: 'Wireframes - UX - UI',
+        },
+        {
+          to: 'atriom',
+          img: 'img-at-preview',
+          alt: 'atriom design',
+          description: 'A startup looking for a clean and safe look',
+          tag: 'Branding - Illustration - UI Design - Web design',
+        },
+      ];
+    });
+    return { stepsGrid, stepsGrid2, footerNav };
   },
 });
 </script>
