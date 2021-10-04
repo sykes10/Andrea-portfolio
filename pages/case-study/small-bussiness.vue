@@ -14,23 +14,37 @@
           class="w-full mb-10 md:mb-14"
         />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <h1 class="mb-8">A new identity for a group of dreamers</h1>
+          <h1 class="mb-8">Giving a hand to the small business</h1>
 
           <p class="mb-5">
-            Ticket Tailor approached Vector with a new vision for their brand
-            and website. They wanted to put their old style to rest and bring
-            some soul to their product.
+            A few years back I was involved in a project called Āgora Gracia, a
+            wallet designed as a commercial guide for the area of Gracia in
+            Barcelona, Spain. Inside the wallet, you could save all your
+            favourite establishments, had access to their news, promotions, and
+            fidelity cards activated by NFC technology.
+          </p>
+          <p class="mb-5">
+            Alongside the wallet there was a dashboard for the business owners,
+            a space where they could create and upload content, only available
+            on desktop.
+          </p>
+          <p class="mb-5">
+            After some time we realised that users weren’t creating content and
+            after speaking with some of them, many reported that the desktop
+            version was a limitation, they didn’t have the time to set content
+            in the computer or didn’t have one available.
           </p>
           <p class="mb-6">
-            Our work was centred on the development of a new graphic language
-            and the design of their new website. Mantainig only two existing
-            elements, their logo and their signature purple.
+            To solve these issues I was tasked to condense the existing
+            dashboard in an app form. This project was discarded for budget
+            issues but I took the opportunity to revisit it and clean up some of
+            my mistakes.
           </p>
-          <span class="text-peach-500 uppercase">Branding - UX/UI Design</span>
+          <span class="text-peach-500 uppercase">UX/UI Design</span>
         </div>
         <img
-          src="~/assets/images/ticket-tailor/img-tt-desktop-mobile.png"
-          alt="emailoctopus design"
+          src="~/assets/images/small-bussiness/img-mc-mobile-group.png"
+          alt="small-bussiness design"
           loading="lazy"
           class="w-full"
         />
@@ -39,97 +53,164 @@
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h2 class="mb-8">The Beginning</h2>
           <p class="mb-5">
-            We started with an stablished group of values, the new design should
-            be Simple, Soulful, Supportive and Stellar.
+            As metioned before, the wallet already had a functional dashboard on
+            desktop, but we needed a solution for the small and mid business
+            owner that had no time to waste on that version. The main goal of
+            the dashboard was create content, either post information, send
+            notifications about relevant events or offers or even create flash
+            sales.
+          </p>
+          <p class="mb-5">
+            I had the challenge to condensate every aspect of the desktop and
+            make it fast and easy to use. With the goal of increasing the
+            merchant's movement on the wallet and their interest in the project.
+          </p>
+          <p class="mb-5">
+            In my first visit to this project I was just starting my path into
+            UI and UX design. The initial screens were rough, clumsy and hard to
+            use if you weren't familiar with the desktop counterpart, many
+            things were hidden and unnecessary. But the general idea was still
+            pretty interesting at the time.
           </p>
           <p>
-            After a 3 day of workshops we set all the directions we needed to
-            take, beeing one of the main goals to make sure the Event organisers
-            persieve the product as an easy and flexible tool to create their
-            events.
+            Some time later, I found this project as a good opportunity to clean
+            the mistakes I made in the past, fixing the experience, re-centred
+            the main goal of the app and cleaning the old rusty design.
           </p>
         </div>
         <img
-          src="~/assets/images/ticket-tailor/img-tt-words.png"
-          alt="emailoctopus design"
+          src="~/assets/images/small-bussiness/img-mc-wireframes-old.png"
+          alt="small-bussiness design"
           loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0"
         />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <h2 class="mb-8">Brand</h2>
+          <h2 class="mb-8">Wireframes</h2>
+          <p class="mb-5">
+            I already had in hands all the functionalities this dashboard
+            needed, so after a time of research, I started to re-arrange the
+            flow.
+          </p>
           <p>
-            As mentioned previously, the logo and brand colours remained the
-            same, so we worked arround them. We created a series of moodboards
-            and worked together with the clients to select the most appropiate
-            style for them.
+            Instead of having the content creation section as the landing page
+            as I have it inicially, I decided to have the metrics as the initial
+            screen and content creation one on the center of the navigation
           </p>
         </div>
         <img
-          src="~/assets/images/ticket-tailor/img-tt-moodboards.png"
-          alt="emailoctopus design"
+          src="~/assets/images/small-bussiness/img-mc-wires-1.png"
+          alt="small-bussiness design"
           loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
-        <p class="max-w-4xl mx-auto mb-10 md:mb-14">
-          To bring the new values - Simple, Soulful, Supportive and Stellar - to
-          the brand we opted for a warm complementary pallet mixed with quirky
-          illustrations that brought a sense of community and diversity.
-        </p>
-        <img
-          src="~/assets/images/ticket-tailor/img-tt-brand.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full mb-10 md:mb-14"
-        />
-        <p class="max-w-4xl mx-auto mb-10 md:mb-14">
-          With ----- collaboration, a group of characters, icons and accents
-          where created, each character illustration is representing a different
-          type of event since Ticket Tailor is a place for everyone who wants to
-          create an event - as they say “You dream it. We’ll ticket it’’.
-        </p>
-        <img
-          src="~/assets/images/ticket-tailor/img-tt-characters.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full mb-10 md:mb-14"
         />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <h2 class="mb-8">Website</h2>
+          <h2 class="mb-8">New style</h2>
           <p>
-            With the initial brand elements defined we started to wireframe
-            pages and create a visual language by implementing some of the
-            graphic elements created.
+            The new design has to look clean with no many components that could
+            distract the user from their main goal. Also should be adaptable for
+            any brand, since initially we wanted to integrate part of the
+            identity of each brand inside the dashboard.
           </p>
         </div>
         <img
-          src="~/assets/images/ticket-tailor/img-tt-full.png"
-          alt="emailoctopus design"
+          src="~/assets/images/small-bussiness/img-mc-transition.png"
+          alt="small-bussiness design"
           loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14 bg-peach-400"
+          class="w-full flex-shrink-0 flex-grow-0"
         />
-        <img
-          src="~/assets/images/ticket-tailor/img-tt-mobile-group.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
-        <p class="max-w-4xl mx-auto mb-10 md:mb-14">
-          The pricing page became the most challenging page to create since the
-          pricing system changed a few times in the course of the project. After
-          a few explorations and test we, with the client’s help, came up with a
-          solution adjusted to their system and goals.
-        </p>
-
-        <img
-          src="~/assets/images/ticket-tailor/img-tt-pricing.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full mb-10 md:mb-14"
-        />
+      </article>
+      <article class="mb-14 md:mb-24">
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h2 class="mb-8">Posting flow</h2>
+          <p class="mb-10 md:mb-14">
+            The new design has to look clean with no many components that could
+            distract the user from their main goal. Also should be adaptable for
+            any brand, since initially we wanted to integrate part of the
+            identity of each brand inside the dashboard.
+          </p>
+          <h3 class="font-karla mb-4">01. Start the journey</h3>
+          <p class="mb-10 md:mb-14">
+            Get into the Dashboard and have a quick look at your statistics
+            before you start posting.
+          </p>
+          <h3 class="font-karla mb-4">02. Choose your type of post</h3>
+          <p class="mb-10 md:mb-14">
+            Do you have something to say, sell or notify? By pressing the new
+            content button you can choose between a normal, a flash sale or a
+            notification.
+          </p>
+          <h3 class="font-karla mb-4">03. Customize it</h3>
+          <p class="mb-10 md:mb-14">
+            Upload a picture, put a title, describe a little bit and set any
+            other characteristic of your post and by pressing the button, it
+            goes live!
+          </p>
+        </div>
+        <div class="mb-10 md:mb-14 flex overflow-x-auto md:justify-center">
+          <div
+            class="
+              flex flex-col
+              justify-center
+              items-center
+              flex-shrink-0 flex-grow-0
+              w-10/12
+              md:w-[30%] md:px-10
+              px-6
+              mb-14
+            "
+            v-for="(item, index) in stepsGrid"
+            :key="index"
+          >
+            <img
+              :src="require(`~/assets/images/small-bussiness/${item.url}.png`)"
+              alt="emailoctopus design"
+              loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4"
+            />
+            <p class="text-lg">{{ item.copy }}</p>
+          </div>
+        </div>
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <h3 class="font-karla mb-4">04. Manage your content</h3>
+          <p class="mb-10 md:mb-14">
+            Go to the Manage tab and review, edit or reorder all the content
+            that will be shown in your space in the wallet.
+          </p>
+          <h3 class="font-karla mb-4">05. Preview your post</h3>
+          <p class="mb-10 md:mb-14">
+            Make sure that all the information of your post is in place, in the
+            case that you need to change something, you will always have the
+            option to edit.
+          </p>
+        </div>
+        <div class="mb-10 md:mb-14 flex overflow-x-auto md:justify-center">
+          <div
+            class="
+              flex flex-col
+              justify-center
+              items-center
+              flex-shrink-0 flex-grow-0
+              w-10/12
+              md:w-[30%] md:px-10
+              px-6
+              mb-14
+            "
+            v-for="(item, index) in stepsGrid2"
+            :key="index"
+          >
+            <img
+              :src="require(`~/assets/images/small-bussiness/${item.url}.png`)"
+              alt="emailoctopus design"
+              loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4"
+            />
+            <p class="text-lg">{{ item.copy }}</p>
+          </div>
+        </div>
       </article>
       <divider class="mx-auto mb-14 md:mb-24" />
       <section
@@ -138,7 +219,7 @@
         <nuxt-link class="w-full md:w-1/2" to="/case-study/emailoctopus">
           <img
             src="~/assets/images/previews/img-eo-preview@2x.png"
-            alt="emailoctopus design"
+            alt="small-bussiness design"
             loading="lazy"
             class="mb-8"
           />
@@ -148,7 +229,7 @@
         <nuxt-link class="w-full md:w-1/2" to="/case-study/football-app">
           <img
             src="~/assets/images/previews/img-ft-preview@2x.png"
-            alt="emailoctopus design"
+            alt="small-bussiness design"
             loading="lazy"
             class="mb-8"
           />
@@ -161,7 +242,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, useMeta } from '@nuxtjs/composition-api';
+import { computed, defineComponent, useMeta } from '@nuxtjs/composition-api';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
 import OpenInNew from '~/assets/svg/open.svg';
@@ -186,7 +267,26 @@ export default defineComponent({
         },
       ],
     });
-    return {};
+    const stepsGrid = computed(() => {
+      return [
+        { url: 'img-mc-mobile-posting-01', copy: '01. Start the journey' },
+        {
+          url: 'img-mc-mobile-posting-02',
+          copy: '02. Choose your type of post',
+        },
+        { url: 'img-mc-mobile-posting-03', copy: '03. Customize it' },
+      ];
+    });
+    const stepsGrid2 = computed(() => {
+      return [
+        { url: 'img-mc-mobile-posting-04', copy: '04. Manage your content' },
+        {
+          url: 'img-mc-mobile-posting-05',
+          copy: '05. Preview your post',
+        },
+      ];
+    });
+    return { stepsGrid, stepsGrid2 };
   },
 });
 </script>

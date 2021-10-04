@@ -77,7 +77,7 @@
           class="w-full flex-shrink-0 flex-grow-0 mb-6"
         />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14 text-center">
-          <p>01. Exploring the team’s area</p>
+          <h3 class="font-karla">01. Exploring the team’s area</h3>
         </div>
       </article>
       <article class="mb-14 md:mb-24">
@@ -132,7 +132,7 @@
               loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4"
             />
-            <p>{{ item.copy }}</p>
+            <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -165,7 +165,7 @@
               loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4"
             />
-            <p>{{ item.copy }}</p>
+            <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -203,7 +203,7 @@
               loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4"
             />
-            <p>{{ item.copy }}</p>
+            <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
         <div class="mb-10 md:mb-14 flex overflow-x-auto">
@@ -218,6 +218,7 @@
               px-4
               mb-14
             "
+            v-for="(item, index) in officialStoreGrid2"
             :key="index"
           >
             <img
@@ -226,7 +227,7 @@
               loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4"
             />
-            <p>{{ item.copy }}</p>
+            <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
       </article>
