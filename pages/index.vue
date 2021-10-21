@@ -16,7 +16,6 @@
       <img
         src="~/assets/images/andrea-header.png"
         alt="Andrea de armas ilustration"
-        loading="lazy"
         class="w-4/5 md:w-100 h-full md:h-120"
       />
       <div class="mt-10 md:mt-0">
