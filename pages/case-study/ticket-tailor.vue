@@ -92,7 +92,7 @@
           With ----- collaboration, a group of characters, icons and accents
           where created, each character illustration is representing a different
           type of event since Ticket Tailor is a place for everyone who wants to
-          create an event - as they say “You dream it. We’ll ticket it’’.
+          create an event - as they say “You dream it. We’ll ticket it“.
         </p>
         <img
           src="~/assets/images/ticket-tailor/img-tt-characters.png"
@@ -171,8 +171,7 @@ export default defineComponent({
       ],
     });
 
-    const footerNav = computed(() => {
-      return [
+    const footerNav =  [
         {
           to: 'emailoctopus',
           img: 'img-eo-preview',
@@ -188,7 +187,6 @@ export default defineComponent({
           tag: 'Wireframes - UX - UI',
         },
       ];
-    });
     return { footerNav };
   },
 });

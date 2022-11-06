@@ -21,11 +21,20 @@
 <script lang="ts">
 import { defineComponent, computed } from '@nuxtjs/composition-api';
 
+export type Item = {
+  to: string;
+    img: string;
+    alt: string;
+    description: string;
+    tag: string;
+}
+
 export default defineComponent({
   name: 'footer-nav',
 
   props: {
-    items: { default: [] },
+    items: { required: true,
+    type:  Object as () => Item },
   },
 });
 </script>

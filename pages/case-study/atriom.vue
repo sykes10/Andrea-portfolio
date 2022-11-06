@@ -149,13 +149,6 @@ export default defineComponent({
   setup() {
     useMeta({
       title: 'AndreaDA. | Ticket tailor case study',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'This is a portfolio',
-        },
-      ],
     });
     const stepsGrid = computed(() => {
       return [

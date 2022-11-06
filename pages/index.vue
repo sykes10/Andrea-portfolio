@@ -117,7 +117,8 @@ export default defineComponent({
         {
           hid: 'description',
           name: 'description',
-          content: 'This is a portfolio',
+          content:
+            'This is a portfolio that showcases the amazing work done by Andrea de Armas as UI/UX designer',
         },
       ],
     });

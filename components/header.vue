@@ -6,10 +6,9 @@
     <div class="flex items-center">
       <work-svg class="mr-3 opacity-40" />
       <div>
-        <p class="inline">Working at:</p>
-        <a href="https://vector-digital.co.uk/" class="text-xl font-bold">
-          Vector
-        </a>
+        <p class="inline">
+          Work status: <span class="font-bold">Available</span>
+        </p>
       </div>
     </div>
   </header>
