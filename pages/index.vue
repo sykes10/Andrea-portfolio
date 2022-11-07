@@ -109,18 +109,6 @@ export default defineComponent({
     AppButton,
     ArrowDown,
   },
-  head: {
-    title: 'AndreaDA. | Portfolio',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-        'This is a portfolio that showcases the amazing work done by Andrea de Armas as UI/UX designer',
-      }
-    ]
-  },
-
 });
 </script>
 

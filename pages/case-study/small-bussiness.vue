@@ -2,17 +2,15 @@
   <main class="lg:mb-24 mb-6">
     <section class="flex justify-between items-center mt-24 mb-11">
       <nuxt-link to="/">
-        <app-button> <arrow-left /> </app-button>
+        <app-button>
+          <arrow-left />
+        </app-button>
       </nuxt-link>
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img
-          src="~/assets/images/small-bussiness/img-bussiness.png"
-          alt="small bussiness design"
-          loading="lazy"
-          class="w-full mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/small-bussiness/img-bussiness.png" alt="small bussiness design" loading="lazy"
+          class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">Giving a hand to the small business</h1>
 
@@ -42,12 +40,8 @@
           </p>
           <span class="text-peach-500 uppercase">UX/UI Design</span>
         </div>
-        <img
-          src="~/assets/images/small-bussiness/img-mc-mobile-group.png"
-          alt="small-bussiness design"
-          loading="lazy"
-          class="w-full"
-        />
+        <img src="~/assets/images/small-bussiness/img-mc-mobile-group.png" alt="small-bussiness design" loading="lazy"
+          class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -78,12 +72,8 @@
             the main goal of the app and cleaning the old rusty design.
           </p>
         </div>
-        <img
-          src="~/assets/images/small-bussiness/img-mc-wireframes-old.png"
-          alt="small-bussiness design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0"
-        />
+        <img src="~/assets/images/small-bussiness/img-mc-wireframes-old.png" alt="small-bussiness design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -99,12 +89,8 @@
             screen and content creation one on the center of the navigation
           </p>
         </div>
-        <img
-          src="~/assets/images/small-bussiness/img-mc-wires-1.png"
-          alt="small-bussiness design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/small-bussiness/img-mc-wires-1.png" alt="small-bussiness design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -116,12 +102,8 @@
             identity of each brand inside the dashboard.
           </p>
         </div>
-        <img
-          src="~/assets/images/small-bussiness/img-mc-transition.png"
-          alt="small-bussiness design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0"
-        />
+        <img src="~/assets/images/small-bussiness/img-mc-transition.png" alt="small-bussiness design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -151,8 +133,7 @@
           </p>
         </div>
         <div class="mb-10 md:mb-14 flex overflow-x-auto md:justify-center">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -161,16 +142,9 @@
               md:w-[30%] md:px-10
               px-6
               mb-14
-            "
-            v-for="(item, index) in stepsGrid"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/small-bussiness/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in stepsGrid" :key="index">
+            <img :src="require(`~/assets/images/small-bussiness/${item.url}.png`)" alt="emailoctopus design"
+              loading="lazy" class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -188,8 +162,7 @@
           </p>
         </div>
         <div class="mb-10 md:mb-14 flex overflow-x-auto md:justify-center">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -198,16 +171,9 @@
               md:w-[30%] md:px-10
               px-6
               mb-14
-            "
-            v-for="(item, index) in stepsGrid2"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/small-bussiness/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in stepsGrid2" :key="index">
+            <img :src="require(`~/assets/images/small-bussiness/${item.url}.png`)" alt="emailoctopus design"
+              loading="lazy" class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -219,12 +185,13 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useMeta } from '@nuxtjs/composition-api';
+import { defineComponent } from '@nuxtjs/composition-api';
 import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
 import OpenInNew from '~/assets/svg/open.svg';
 import Divider from '~/assets/svg/divider.svg';
+import { footerNavEntries } from '~/data/footer-nav';
 
 export default defineComponent({
   components: {
@@ -234,55 +201,37 @@ export default defineComponent({
     Divider,
     FooterNav,
   },
-  head: {},
+  head: {
+    title: 'AndreaDN. | Ticket tailor case study',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'This is a portfolio',
+      },
+    ],
+  },
   setup() {
-    useMeta({
-      title: 'AndreaDA. | Ticket tailor case study',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'This is a portfolio',
-        },
-      ],
-    });
-    const stepsGrid = computed(() => {
-      return [
-        { url: 'img-mc-mobile-posting-01', copy: '01. Start the journey' },
-        {
-          url: 'img-mc-mobile-posting-02',
-          copy: '02. Choose your type of post',
-        },
-        { url: 'img-mc-mobile-posting-03', copy: '03. Customize it' },
-      ];
-    });
-    const stepsGrid2 = computed(() => {
-      return [
-        { url: 'img-mc-mobile-posting-04', copy: '04. Manage your content' },
-        {
-          url: 'img-mc-mobile-posting-05',
-          copy: '05. Preview your post',
-        },
-      ];
-    });
-    const footerNav = computed(() => {
-      return [
-        {
-          to: 'football-app',
-          img: 'img-ft-preview',
-          alt: 'football app design',
-          description: 'Concept: Making a space for the ultimate fan',
-          tag: 'Wireframes - UX - UI',
-        },
-        {
-          to: 'atriom',
-          img: 'img-at-preview',
-          alt: 'atriom design',
-          description: 'A startup looking for a clean and safe look',
-          tag: 'Branding - Illustration - UI Design - Web design',
-        },
-      ];
-    });
+
+    const stepsGrid = [
+      { url: 'img-mc-mobile-posting-01', copy: '01. Start the journey' },
+      {
+        url: 'img-mc-mobile-posting-02',
+        copy: '02. Choose your type of post',
+      },
+      { url: 'img-mc-mobile-posting-03', copy: '03. Customize it' },
+    ];
+    const stepsGrid2 = [
+      { url: 'img-mc-mobile-posting-04', copy: '04. Manage your content' },
+      {
+        url: 'img-mc-mobile-posting-05',
+        copy: '05. Preview your post',
+      },
+    ];
+    const footerNav = [
+      footerNavEntries.football,
+      footerNavEntries.atriom
+    ];
     return { stepsGrid, stepsGrid2, footerNav };
   },
 });

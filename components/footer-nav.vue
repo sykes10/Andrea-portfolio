@@ -34,7 +34,7 @@ export default defineComponent({
 
   props: {
     items: { required: true,
-    type:  Object as () => Item },
+    type:  Object as () => Item[] },
   },
 });
 </script>

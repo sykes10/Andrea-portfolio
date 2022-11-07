@@ -2,17 +2,15 @@
   <main class="lg:mb-24 mb-6">
     <section class="flex justify-between items-center mt-13 md:mt-24 mb-11">
       <nuxt-link to="/">
-        <app-button> <arrow-left /> </app-button>
+        <app-button>
+          <arrow-left />
+        </app-button>
       </nuxt-link>
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img
-          src="~/assets/images/football-app/img-football-app.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/football-app/img-football-app.png" alt="emailoctopus design" loading="lazy"
+          class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">Concept: Making a space for the ultimate fan</h1>
           <p class="mb-6">
@@ -24,12 +22,8 @@
           </p>
           <span class="text-peach-500 uppercase">Wireframes - UX - UI</span>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-mobile-group.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full"
-        />
+        <img src="~/assets/images/football-app/img-ft-mobile-group.png" alt="emailoctopus design" loading="lazy"
+          class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -55,12 +49,8 @@
             time to make the map for the app and start defining flows.
           </p>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-journey.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0"
-        />
+        <img src="~/assets/images/football-app/img-ft-journey.png" alt="emailoctopus design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
@@ -70,12 +60,8 @@
             some wireframes. These flows were:
           </p>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-wires-1.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-6"
-        />
+        <img src="~/assets/images/football-app/img-ft-wires-1.png" alt="emailoctopus design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0 mb-6" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14 text-center">
           <h3 class="font-karla">01. Exploring the team’s area</h3>
         </div>
@@ -91,29 +77,20 @@
             be sure that my designs will be consistent.
           </p>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-style.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/football-app/img-ft-style.png" alt="emailoctopus design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h3 class="font-karla">01. Team area</h3>
           <p>All the information about the team in one place.</p>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-mobile-team-01.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/football-app/img-ft-mobile-team-01.png" alt="emailoctopus design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           The team's section offers a smooth review of the team matches,
           classification and players profile.
         </p>
         <div class="mb-10 md:mb-14 flex overflow-x-auto">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -122,16 +99,9 @@
               md:w-1/4
               px-4
               mb-14
-            "
-            v-for="(item, index) in teamAreaGrid"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/football-app/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in teamAreaGrid" :key="index">
+            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -145,8 +115,7 @@
           </p>
         </div>
         <div class="mb-10 md:mb-14 flex overflow-x-auto">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -155,16 +124,9 @@
               md:w-1/4
               px-4
               mb-14
-            "
-            v-for="(item, index) in matchResumeGrid"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/football-app/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in matchResumeGrid" :key="index">
+            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -172,19 +134,14 @@
           <h3 class="font-karla">03. Official store</h3>
           <p>Integrated official store for Merchandise and tickets.</p>
         </div>
-        <img
-          src="~/assets/images/football-app/img-ft-mobile-store-01.png"
-          alt="emailoctopus design"
-          loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14"
-        />
+        <img src="~/assets/images/football-app/img-ft-mobile-store-01.png" alt="emailoctopus design" loading="lazy"
+          class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           The team's section offers a smooth review of the team matches,
           classification and players profile.
         </p>
         <div class="mb-10 md:mb-14 flex overflow-x-auto">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -193,22 +150,14 @@
               md:w-1/4
               px-4
               mb-14
-            "
-            v-for="(item, index) in officialStoreGrid"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/football-app/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in officialStoreGrid" :key="index">
+            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
         <div class="mb-10 md:mb-14 flex overflow-x-auto">
-          <div
-            class="
+          <div class="
               flex flex-col
               justify-center
               items-center
@@ -217,16 +166,9 @@
               md:w-1/4
               px-4
               mb-14
-            "
-            v-for="(item, index) in officialStoreGrid2"
-            :key="index"
-          >
-            <img
-              :src="require(`~/assets/images/football-app/${item.url}.png`)"
-              alt="emailoctopus design"
-              loading="lazy"
-              class="w-full flex-shrink-0 flex-grow-0 mb-4"
-            />
+            " v-for="(item, index) in officialStoreGrid2" :key="index">
+            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -245,6 +187,7 @@ import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
 import OpenInNew from '~/assets/svg/open.svg';
 import Divider from '~/assets/svg/divider.svg';
+import { footerNavEntries } from '~/data/footer-nav'
 export default defineComponent({
   components: {
     AppButton,
@@ -253,68 +196,45 @@ export default defineComponent({
     Divider,
     FooterNav,
   },
-  head: {},
+  head: {
+    title: 'AndreaDN. | Ticket taylor case study',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'This is a portfolio',
+      },
+    ],
+  },
   setup() {
-    useMeta({
-      title: 'AndreaDA. | Ticket taylor case study',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'This is a portfolio',
-        },
-      ],
-    });
-    const teamAreaGrid = computed(() => {
-      return [
-        { url: 'img-ft-mobile-team-02', copy: 'All matches' },
-        { url: 'img-ft-mobile-team-03', copy: 'Clasification table' },
-        { url: 'img-ft-mobile-team-04', copy: 'Team’s players' },
-        { url: 'img-ft-mobile-team-05', copy: 'Player profile' },
-      ];
-    });
-    const matchResumeGrid = computed(() => {
-      return [
-        { url: 'img-ft-mobile-resume-01', copy: 'Home' },
-        { url: 'img-ft-mobile-resume-02', copy: 'Live resume' },
-        { url: 'img-ft-mobile-resume-03', copy: 'Game line up' },
-        { url: 'img-ft-mobile-resume-04', copy: 'Game stats' },
-      ];
-    });
-    const officialStoreGrid = computed(() => {
-      return [
-        { url: 'img-ft-mobile-store-02', copy: 'Product category' },
-        { url: 'img-ft-mobile-store-03', copy: 'Product detail' },
-        { url: 'img-ft-mobile-store-04', copy: 'Size selector' },
-        { url: 'img-ft-mobile-store-05', copy: 'Product added' },
-      ];
-    });
-    const officialStoreGrid2 = computed(() => {
-      return [
-        { url: 'img-ft-mobile-store-06', copy: 'Product on the bag' },
-        { url: 'img-ft-mobile-store-07', copy: 'Shopping bag' },
-        { url: 'img-ft-mobile-store-08', copy: 'Checkout' },
-        { url: 'img-ft-mobile-store-09', copy: 'Confirmation screen' },
-      ];
-    });
-    const footerNav = computed(() => {
-      return [
-        {
-          to: 'ticket-tailor',
-          img: 'img-tt-preview',
-          alt: 'ticket tailor design',
-          description: 'A new identity for a group of dreamers',
-          tag: 'Branding - UX/UI Design',
-        },
-        {
-          to: 'small-bussiness',
-          img: 'img-mc-preview',
-          alt: 'small bussiness design',
-          description: 'Giving a hand to the small business',
-          tag: 'UX/UI Design',
-        },
-      ];
-    });
+    const teamAreaGrid = [
+      { url: 'img-ft-mobile-team-02', copy: 'All matches' },
+      { url: 'img-ft-mobile-team-03', copy: 'Clasification table' },
+      { url: 'img-ft-mobile-team-04', copy: 'Team’s players' },
+      { url: 'img-ft-mobile-team-05', copy: 'Player profile' },
+    ];
+    const matchResumeGrid = [
+      { url: 'img-ft-mobile-resume-01', copy: 'Home' },
+      { url: 'img-ft-mobile-resume-02', copy: 'Live resume' },
+      { url: 'img-ft-mobile-resume-03', copy: 'Game line up' },
+      { url: 'img-ft-mobile-resume-04', copy: 'Game stats' },
+    ];
+    const officialStoreGrid = [
+      { url: 'img-ft-mobile-store-02', copy: 'Product category' },
+      { url: 'img-ft-mobile-store-03', copy: 'Product detail' },
+      { url: 'img-ft-mobile-store-04', copy: 'Size selector' },
+      { url: 'img-ft-mobile-store-05', copy: 'Product added' },
+    ];
+    const officialStoreGrid2 = [
+      { url: 'img-ft-mobile-store-06', copy: 'Product on the bag' },
+      { url: 'img-ft-mobile-store-07', copy: 'Shopping bag' },
+      { url: 'img-ft-mobile-store-08', copy: 'Checkout' },
+      { url: 'img-ft-mobile-store-09', copy: 'Confirmation screen' },
+    ];
+    const footerNav = [
+      footerNavEntries.ticket,
+      footerNavEntries.pret
+    ];
     return {
       teamAreaGrid,
       matchResumeGrid,

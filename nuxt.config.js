@@ -4,12 +4,18 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'andreaPortfolio',
+    title: 'AndreaDN. | Portfolio',
+
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-    ],
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+        'This is a portfolio that showcases the amazing work done by Andrea de Armas as UI/UX designer',
+      }
+        ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
