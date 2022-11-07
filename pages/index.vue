@@ -100,7 +100,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, useMeta } from '@nuxtjs/composition-api';
+import { defineComponent } from '@nuxtjs/composition-api';
 import AppButton from '~/components/button.vue';
 import ArrowDown from '~/assets/svg/arrow-down.svg';
 
@@ -109,21 +109,18 @@ export default defineComponent({
     AppButton,
     ArrowDown,
   },
-  head: {},
-  setup() {
-    useMeta({
-      title: 'AndreaDA. | Portfolio',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'This is a portfolio that showcases the amazing work done by Andrea de Armas as UI/UX designer',
-        },
-      ],
-    });
-    return {};
+  head: {
+    title: 'AndreaDA. | Portfolio',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+        'This is a portfolio that showcases the amazing work done by Andrea de Armas as UI/UX designer',
+      }
+    ]
   },
+
 });
 </script>
 
