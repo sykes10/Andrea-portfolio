@@ -15,10 +15,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api';
+import Vue from 'vue'
 import WorkSvg from '~/assets/svg/work.svg';
 
-export default defineComponent({
+export default Vue.extend({
   name: 'app-header',
   components: { WorkSvg },
 });

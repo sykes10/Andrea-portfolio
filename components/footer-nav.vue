@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from '@nuxtjs/composition-api';
+import Vue from 'vue'
 
 export type Item = {
   to: string;
@@ -19,13 +19,12 @@ export type Item = {
   tag: string;
 }
 
-export default defineComponent({
+export default Vue.extend({
   name: 'footer-nav',
-
   props: {
     items: {
       required: true,
-      type: Object as () => Item[]
+      type: Array as () => Item[]
     },
   },
 });

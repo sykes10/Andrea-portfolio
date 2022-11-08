@@ -44,34 +44,34 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from '@nuxtjs/composition-api';
+import Vue from 'vue'
 import AppButton from '~/components/button.vue';
 import ArrowUp from '~/assets/svg/arrow-up.svg';
 
-export default defineComponent({
+export default Vue.extend({
   name: 'app-header',
   components: {
     ArrowUp,
     AppButton,
   },
-  setup() {
-    const links = computed(() => [
-      {
-        href: 'mailto:andrea.design@email.com',
-        text: 'Email',
-      },
-      {
-        href: 'https://www.linkedin.com/in/andrea-alejandra-de-armas-nu%C3%B1ez-200200ba/',
-        text: 'Linkedin',
-      },
-    ])
-    const year = computed(() => new Intl.DateTimeFormat('en-GB', { year: 'numeric' }).format(new Date())
-    )
-
-
-    return { links, year };
-  },
-});
+  computed: {
+    links() {
+      return [
+        {
+          href: 'mailto:andrea.design@email.com',
+          text: 'Email',
+        },
+        {
+          href: 'https://www.linkedin.com/in/andrea-alejandra-de-armas-nu%C3%B1ez-200200ba/',
+          text: 'Linkedin',
+        },
+      ]
+    },
+    year() {
+      return new Intl.DateTimeFormat('en-GB', { year: 'numeric' }).format(new Date());
+    }
+  }
+})
 </script>
 
 <style scoped>

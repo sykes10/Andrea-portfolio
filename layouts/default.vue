@@ -6,15 +6,16 @@
   </div>
 </template>
 <script>
+import Vue from 'vue'
 import AppHeader from '~/components/header.vue';
 import AppFooter from '~/components/footer.vue';
 
-export default {
+export default Vue.extend({
   transition: 'home',
   name: 'DefaultLayout',
   components: {
     AppHeader,
     AppFooter,
   },
-};
+});
 </script>

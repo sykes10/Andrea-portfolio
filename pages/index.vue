@@ -83,11 +83,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api';
+import Vue from 'vue';
 import AppButton from '~/components/button.vue';
 import ArrowDown from '~/assets/svg/arrow-down.svg';
 
-export default defineComponent({
+export default Vue.extend({
   components: {
     AppButton,
     ArrowDown,

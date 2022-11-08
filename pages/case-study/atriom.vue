@@ -102,7 +102,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from '@nuxtjs/composition-api';
+import Vue from 'vue'
 import AppButton from '~/components/button.vue';
 import FooterNav from '~/components/footer-nav.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
@@ -110,7 +110,7 @@ import OpenInNew from '~/assets/svg/open.svg';
 import Divider from '~/assets/svg/divider.svg';
 import { footerNavEntries } from '~/data/footer-nav';
 
-export default defineComponent({
+export default Vue.extend({
   components: {
     AppButton,
     ArrowLeft,
@@ -122,27 +122,31 @@ export default defineComponent({
     title: 'AndreaDN. | Atriom case study',
 
   },
-  setup() {
-
-    const stepsGrid = computed(() => [
-      { url: 'img-mc-mobile-posting-01', copy: '01. Start the journey' },
-      {
-        url: 'img-mc-mobile-posting-02',
-        copy: '02. Choose your type of post',
-      },
-      { url: 'img-mc-mobile-posting-03', copy: '03. Customize it' },
-    ]);
-    const stepsGrid2 = computed(() => [
-      { url: 'img-mc-mobile-posting-04', copy: '04. Manage your content' },
-      {
-        url: 'img-mc-mobile-posting-05',
-        copy: '05. Preview your post',
-      },
-    ]);
-    const footerNav = computed(() => [
-      footerNavEntries.vector, footerNavEntries.octopus
-    ]);
-    return { stepsGrid, stepsGrid2, footerNav };
-  },
+  computed: {
+    stepsGrid() {
+      return [
+        { url: 'img-mc-mobile-posting-01', copy: '01. Start the journey' },
+        {
+          url: 'img-mc-mobile-posting-02',
+          copy: '02. Choose your type of post',
+        },
+        { url: 'img-mc-mobile-posting-03', copy: '03. Customize it' },
+      ]
+    },
+    stepsGrid2() {
+      return [
+        { url: 'img-mc-mobile-posting-04', copy: '04. Manage your content' },
+        {
+          url: 'img-mc-mobile-posting-05',
+          copy: '05. Preview your post',
+        },
+      ]
+    },
+    footerNav() {
+      return [
+        footerNavEntries.vector, footerNavEntries.octopus
+      ]
+    },
+  }
 });
 </script>

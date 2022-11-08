@@ -135,7 +135,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from '@nuxtjs/composition-api';
+import Vue from 'vue';
 import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
@@ -143,7 +143,7 @@ import OpenInNew from '~/assets/svg/open.svg';
 import Divider from '~/assets/svg/divider.svg';
 import { footerNavEntries } from '~/data/footer-nav';
 
-export default defineComponent({
+export default Vue.extend({
   components: {
     AppButton,
     ArrowLeft,
@@ -161,13 +161,13 @@ export default defineComponent({
       },
     ],
   },
-  setup() {
-    const footerNav = computed(() => [
-      footerNavEntries.vector,
-      footerNavEntries.ticket
-    ]);
-
-    return { footerNav };
-  },
+  computed: {
+    footerNav() {
+      return [
+        footerNavEntries.vector,
+        footerNavEntries.ticket
+      ]
+    }
+  }
 });
 </script>
