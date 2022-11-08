@@ -42,6 +42,5 @@ export const footerNavEntries = {
         description: 'New brand for new beginnings',
         tag: 'Branding - UX/UI Design',
     },
-    'fidel': {},
 }
 

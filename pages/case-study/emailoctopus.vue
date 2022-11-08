@@ -135,7 +135,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api';
+import { defineComponent, computed } from '@nuxtjs/composition-api';
 import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
@@ -162,10 +162,10 @@ export default defineComponent({
     ],
   },
   setup() {
-    const footerNav = [
+    const footerNav = computed(() => [
       footerNavEntries.vector,
       footerNavEntries.ticket
-    ];
+    ]);
 
     return { footerNav };
   },

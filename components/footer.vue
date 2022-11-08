@@ -55,7 +55,7 @@ export default defineComponent({
     AppButton,
   },
   setup() {
-    const links = [
+    const links = computed(() => [
       {
         href: 'mailto:andrea.design@email.com',
         text: 'Email',
@@ -64,9 +64,9 @@ export default defineComponent({
         href: 'https://www.linkedin.com/in/andrea-alejandra-de-armas-nu%C3%B1ez-200200ba/',
         text: 'Linkedin',
       },
-    ]
-    const year =
-      new Intl.DateTimeFormat('en-GB', { year: 'numeric' }).format(new Date())
+    ])
+    const year = computed(() => new Intl.DateTimeFormat('en-GB', { year: 'numeric' }).format(new Date())
+    )
 
 
     return { links, year };

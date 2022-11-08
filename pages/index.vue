@@ -28,13 +28,11 @@
     </section>
     <section id="works" class="space-y-9 md:space-y-44 max-w-screen-lg mx-auto">
       <div class="flex flex-col md:flex-row gap-9 md:gap-20 md:mb-44 mb-9">
-        <nuxt-link class="w-full md:w-1/2" to="">
-          <article>
-            <img src="/images/Fidel API.png" alt="Coming soon" loading="lazy" class="w-full mb-4 md:mb-10" />
-            <h3 class="mb-3">Supporting payment experiences</h3>
-            <span class="text-peach-500 uppercase">Visual Design - UI Design</span>
-          </article>
-        </nuxt-link>
+        <article class="w-full md:w-1/2">
+          <img src="/images/Fidel API.png" alt="Coming soon" loading="lazy" class="w-full mb-4 md:mb-10" />
+          <h3 class="mb-3">Supporting payment experiences</h3>
+          <span class="text-peach-500 uppercase">Visual Design - UI Design</span>
+        </article>
         <nuxt-link class="w-full md:w-1/2" to="/case-study/vector">
           <article>
             <img src="/images/Vector.png" alt="Vector re-design" loading="lazy" class="w-full mb-4 md:mb-10" />
@@ -90,7 +88,7 @@ import AppButton from '~/components/button.vue';
 import ArrowDown from '~/assets/svg/arrow-down.svg';
 
 export default defineComponent({
-  mponents: {
+  components: {
     AppButton,
     ArrowDown,
   },

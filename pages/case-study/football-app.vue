@@ -181,7 +181,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, useMeta, computed } from '@nuxtjs/composition-api';
+import { defineComponent, computed } from '@nuxtjs/composition-api';
 import FooterNav from '~/components/footer-nav.vue';
 import AppButton from '~/components/button.vue';
 import ArrowLeft from '~/assets/svg/arrow-left.svg';
@@ -207,34 +207,34 @@ export default defineComponent({
     ],
   },
   setup() {
-    const teamAreaGrid = [
+    const teamAreaGrid = computed(() => [
       { url: 'img-ft-mobile-team-02', copy: 'All matches' },
       { url: 'img-ft-mobile-team-03', copy: 'Clasification table' },
       { url: 'img-ft-mobile-team-04', copy: 'Team’s players' },
       { url: 'img-ft-mobile-team-05', copy: 'Player profile' },
-    ];
-    const matchResumeGrid = [
+    ]);
+    const matchResumeGrid = computed(() => [
       { url: 'img-ft-mobile-resume-01', copy: 'Home' },
       { url: 'img-ft-mobile-resume-02', copy: 'Live resume' },
       { url: 'img-ft-mobile-resume-03', copy: 'Game line up' },
       { url: 'img-ft-mobile-resume-04', copy: 'Game stats' },
-    ];
-    const officialStoreGrid = [
+    ]);
+    const officialStoreGrid = computed(() => [
       { url: 'img-ft-mobile-store-02', copy: 'Product category' },
       { url: 'img-ft-mobile-store-03', copy: 'Product detail' },
       { url: 'img-ft-mobile-store-04', copy: 'Size selector' },
       { url: 'img-ft-mobile-store-05', copy: 'Product added' },
-    ];
-    const officialStoreGrid2 = [
+    ]);
+    const officialStoreGrid2 = computed(() => [
       { url: 'img-ft-mobile-store-06', copy: 'Product on the bag' },
       { url: 'img-ft-mobile-store-07', copy: 'Shopping bag' },
       { url: 'img-ft-mobile-store-08', copy: 'Checkout' },
       { url: 'img-ft-mobile-store-09', copy: 'Confirmation screen' },
-    ];
-    const footerNav = [
+    ]);
+    const footerNav = computed(() => [
       footerNavEntries.ticket,
       footerNavEntries.pret
-    ];
+    ]);
     return {
       teamAreaGrid,
       matchResumeGrid,
