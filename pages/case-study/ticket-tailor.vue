@@ -15,8 +15,8 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/ticket-tailor/img-tickettailor.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
+        <img src="/images/ticket-tailor/img-tickettailor.png" alt="TicketTailor design" loading="eager"
+          fetchpriority="high" class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">A new identity for a group of dreamers</h1>
 
@@ -32,7 +32,7 @@
           </p>
           <span class="text-peach-500 uppercase">Branding - UX/UI Design</span>
         </div>
-        <img src="~/assets/images/ticket-tailor/img-tt-desktop-mobile.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-desktop-mobile.png" alt="TicketTailor desktop mobile" loading="lazy"
           class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -49,7 +49,7 @@
             events.
           </p>
         </div>
-        <img src="~/assets/images/ticket-tailor/img-tt-words.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-words.png" alt="TicketTailor key words" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -62,22 +62,27 @@
             style for them.
           </p>
         </div>
-        <img src="~/assets/images/ticket-tailor/img-tt-moodboards.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-moodboards.png" alt="TicketTailor Moodboards" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           To bring the new values - Simple, Soulful, Supportive and Stellar - to
           the brand we opted for a warm complementary pallet mixed with quirky
           illustrations that brought a sense of community and diversity.
         </p>
-        <img src="~/assets/images/ticket-tailor/img-tt-brand.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-brand.png" alt="TicketTailor brand" loading="lazy"
           class="w-full mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
-          With ----- collaboration, a group of characters, icons and accents
-          where created, each character illustration is representing a different
+          With <a href="https://www.linkedin.com/in/beatrixhatcher/" target="_blank"
+            class="font-bold hover:underline">illustrator Beatrix
+            Hatcher</a>
+          collaboration, a
+          group of
+          characters, icons and accents
+          where created. Each character illustration is representing a different
           type of event since Ticket Tailor is a place for everyone who wants to
           create an event - as they say “You dream it. We’ll ticket it“.
         </p>
-        <img src="~/assets/images/ticket-tailor/img-tt-characters.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-characters.png" alt="TicketTailor characters" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -89,9 +94,9 @@
             graphic elements created.
           </p>
         </div>
-        <img src="~/assets/images/ticket-tailor/img-tt-full.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-full.png" alt="TicketTailor full" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14 bg-peach-400" />
-        <img src="~/assets/images/ticket-tailor/img-tt-mobile-group.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-mobile-group.png" alt="TicketTailor mobile" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           The pricing page became the most challenging page to create since the
@@ -100,7 +105,7 @@
           solution adjusted to their system and goals.
         </p>
 
-        <img src="~/assets/images/ticket-tailor/img-tt-pricing.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/ticket-tailor/img-tt-pricing.png" alt="TicketTailor pricing" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <divider class="mx-auto mb-14 md:mb-24" />
@@ -127,12 +132,12 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Ticket tailor case study',
+    title: 'AndreaDN. | TicketTailor case study',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'This is a portfolio',
+        content: 'TicketTailor website re-design case study',
       },
     ],
   },

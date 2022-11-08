@@ -9,8 +9,8 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/small-bussiness/img-bussiness.png" alt="small bussiness design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
+        <img src="/images/small-bussiness/img-bussiness.png" alt="Small bussiness design" loading="eager"
+          fetchpriority="high" class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">Giving a hand to the small business</h1>
 
@@ -40,7 +40,7 @@
           </p>
           <span class="text-peach-500 uppercase">UX/UI Design</span>
         </div>
-        <img src="~/assets/images/small-bussiness/img-mc-mobile-group.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/small-bussiness/img-mc-mobile-group.png" alt="Small bussiness mobile" loading="lazy"
           class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -72,7 +72,7 @@
             the main goal of the app and cleaning the old rusty design.
           </p>
         </div>
-        <img src="~/assets/images/small-bussiness/img-mc-wireframes-old.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/small-bussiness/img-mc-wireframes-old.png" alt="Small bussiness wires old" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -89,7 +89,7 @@
             screen and content creation one on the center of the navigation
           </p>
         </div>
-        <img src="~/assets/images/small-bussiness/img-mc-wires-1.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/small-bussiness/img-mc-wires-1.png" alt="Small bussiness wires new" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -102,7 +102,7 @@
             identity of each brand inside the dashboard.
           </p>
         </div>
-        <img src="~/assets/images/small-bussiness/img-mc-transition.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/small-bussiness/img-mc-transition.png" alt="Small-bussiness transition" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -143,8 +143,8 @@
               px-6
               mb-14
             " v-for="(item, index) in stepsGrid" :key="index">
-            <img :src="require(`~/assets/images/small-bussiness/${item.url}.png`)" alt="emailoctopus design"
-              loading="lazy" class="w-full flex-shrink-0 flex-grow-0 mb-4" />
+            <img :src="`/images/small-bussiness/${item.url}.png`" alt="Small bussiness design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -172,8 +172,8 @@
               px-6
               mb-14
             " v-for="(item, index) in stepsGrid2" :key="index">
-            <img :src="require(`~/assets/images/small-bussiness/${item.url}.png`)" alt="emailoctopus design"
-              loading="lazy" class="w-full flex-shrink-0 flex-grow-0 mb-4" />
+            <img :src="`/images/small-bussiness/${item.url}.png`" alt="Small bussiness design" loading="lazy"
+              class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
         </div>
@@ -202,12 +202,12 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Ticket tailor case study',
+    title: 'AndreaDN. | Small bussiness case study',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'This is a portfolio',
+        content: 'Concept design',
       },
     ],
   },

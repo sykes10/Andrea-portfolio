@@ -9,8 +9,8 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/football-app/img-football-app.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
+        <img src="/images/football-app/img-football-app.png" alt="Football app design" loading="eager"
+          fetchpriority="high" class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">Concept: Making a space for the ultimate fan</h1>
           <p class="mb-6">
@@ -22,7 +22,7 @@
           </p>
           <span class="text-peach-500 uppercase">Wireframes - UX - UI</span>
         </div>
-        <img src="~/assets/images/football-app/img-ft-mobile-group.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-mobile-group.png" alt="Football app mobile" loading="lazy"
           class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -49,7 +49,7 @@
             time to make the map for the app and start defining flows.
           </p>
         </div>
-        <img src="~/assets/images/football-app/img-ft-journey.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-journey.png" alt="Football app journey" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -60,7 +60,7 @@
             some wireframes. These flows were:
           </p>
         </div>
-        <img src="~/assets/images/football-app/img-ft-wires-1.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-wires-1.png" alt="Football app wires" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-6" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14 text-center">
           <h3 class="font-karla">01. Exploring the team’s area</h3>
@@ -77,13 +77,13 @@
             be sure that my designs will be consistent.
           </p>
         </div>
-        <img src="~/assets/images/football-app/img-ft-style.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-style.png" alt="Football app style" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h3 class="font-karla">01. Team area</h3>
           <p>All the information about the team in one place.</p>
         </div>
-        <img src="~/assets/images/football-app/img-ft-mobile-team-01.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-mobile-team-01.png" alt="Football app team section" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           The team's section offers a smooth review of the team matches,
@@ -100,7 +100,7 @@
               px-4
               mb-14
             " v-for="(item, index) in teamAreaGrid" :key="index">
-            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+            <img :src="`/images/football-app/${item.url}.png`" alt="Football app" loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
@@ -125,7 +125,7 @@
               px-4
               mb-14
             " v-for="(item, index) in matchResumeGrid" :key="index">
-            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+            <img :src="`/images/football-app/${item.url}.png`" alt="Football app" loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
@@ -134,7 +134,7 @@
           <h3 class="font-karla">03. Official store</h3>
           <p>Integrated official store for Merchandise and tickets.</p>
         </div>
-        <img src="~/assets/images/football-app/img-ft-mobile-store-01.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/football-app/img-ft-mobile-store-01.png" alt="Football app store" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <p class="max-w-4xl mx-auto mb-10 md:mb-14">
           The team's section offers a smooth review of the team matches,
@@ -151,7 +151,7 @@
               px-4
               mb-14
             " v-for="(item, index) in officialStoreGrid" :key="index">
-            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+            <img :src="`/images/football-app/${item.url}.png`" alt="Football app" loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
@@ -167,7 +167,7 @@
               px-4
               mb-14
             " v-for="(item, index) in officialStoreGrid2" :key="index">
-            <img :src="require(`~/assets/images/football-app/${item.url}.png`)" alt="emailoctopus design" loading="lazy"
+            <img :src="`/images/football-app/${item.url}.png`" alt="Football app" loading="lazy"
               class="w-full flex-shrink-0 flex-grow-0 mb-4" />
             <p class="text-lg">{{ item.copy }}</p>
           </div>
@@ -197,12 +197,12 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Ticket taylor case study',
+    title: 'AndreaDN. | Football app case study',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'This is a portfolio',
+        content: 'Football app concept design',
       },
     ],
   },

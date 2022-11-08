@@ -1,27 +1,17 @@
 <template>
   <footer>
-    <div
-      class="
+    <div class="
         container
         flex flex-col
         md:flex-row
         justify-between
         items-center
         py-2
-      "
-    >
-      <small class="uppercase text-base order-1 md:order-none mt-4 md:mt-0"
-        >© {{ year }} Andrea De Armas</small
-      >
+      ">
+      <small class="uppercase text-base order-1 md:order-none mt-4 md:mt-0">© {{ year }} Andrea De Armas</small>
       <ul class="flex space-x-6 font-bold">
         <li v-for="link in links" :key="link.href">
-          <a
-            class="uppercase"
-            :href="link.href"
-            rel="noopener"
-            noreferrer
-            target="_blank"
-          >
+          <a class="uppercase" :href="link.href" rel="noopener" noreferrer target="_blank">
             <app-button>
               {{ link.text }}
             </app-button>
@@ -29,8 +19,7 @@
         </li>
       </ul>
     </div>
-    <a
-      class="
+    <a class="
         border border-black
         rounded-full
         w-13
@@ -40,9 +29,15 @@
         justify-center
         mb-16
         mx-auto
-      "
-      href="#top"
-    >
+        hover:bg-[#E9C3B3]
+      transition-colors
+      duration-300
+      hover:border-[#816E66]
+      outline-[#D99079]
+      outline-1
+      focus:outline
+      outline-offset-2
+      " href="#top">
       <arrow-up />
     </a>
   </footer>
@@ -60,7 +55,7 @@ export default defineComponent({
     AppButton,
   },
   setup() {
-    const links =  [
+    const links = [
       {
         href: 'mailto:andrea.design@email.com',
         text: 'Email',
@@ -72,7 +67,7 @@ export default defineComponent({
     ]
     const year =
       new Intl.DateTimeFormat('en-GB', { year: 'numeric' }).format(new Date())
-    
+
 
     return { links, year };
   },
@@ -83,6 +78,7 @@ export default defineComponent({
 .underline-transition {
   @apply inline-block;
 }
+
 .underline-transition::after {
   content: '';
   @apply w-0;
@@ -91,9 +87,11 @@ export default defineComponent({
   @apply bg-black;
   @apply duration-300;
 }
+
 .underline-transition:hover::after {
   @apply w-full;
 }
+
 .nuxt-link-exact-active {
   @apply font-medium;
   @apply text-green-700;

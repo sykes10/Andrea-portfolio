@@ -15,7 +15,7 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/emailoctopus.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus.png" alt="EmailOctopus design" loading="eager" fetchpriority="high"
           class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">Re-branding a trusted Email platform</h1>
@@ -32,7 +32,7 @@
           </p>
           <span class="text-peach-500 uppercase">Branding - UX/UI Design</span>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-desktop-mobile.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-desktop-mobile.png" alt="EmailOctopus desktop mobile" loading="lazy"
           class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -48,7 +48,7 @@
             simple. With the client on front telling their story.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-map@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-map@2x.png" alt="EmailOctopus mind map" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -61,7 +61,7 @@
             graphic elements.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-moodboards@2x.png" alt="EmailOctopus moodboards" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <p class="mb-5">
@@ -75,7 +75,7 @@
             channels.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-brand@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-brand@2x.png" alt="EmailOctopus brand" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -88,7 +88,7 @@
             simple left and right layout to display text and graphic elements.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-moodboards@2x.png" alt="EmailOctopus Styleboards" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <p class="mb-5">
@@ -102,9 +102,9 @@
             channels.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-fulldesktop@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-fulldesktop@2x.png" alt="EmailOctopus desktop full" loading="lazy"
           class="w-full mb-10 md:mb-14" />
-        <img src="~/assets/images/emailoctopus/img-eo-mobile-group@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-mobile-group@2x.png" alt="EmailOctopus mobile" loading="lazy"
           class="w-full mb-10 md:mb-14" />
         <p class="mb-10 md:mb-14 max-w-4xl mx-auto">
           As mentioned previouly, one of the main objectives for the brand and
@@ -112,7 +112,7 @@
           stage. We used real emails created by real clients across the website
           and pushed their stories over the product features.
         </p>
-        <img src="~/assets/images/emailoctopus/img-eo-elements@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-elements@2x.png" alt="EmailOctopus elements" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -125,7 +125,7 @@
             new pieces.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-socials@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/emailoctopus/img-eo-socials@2x.png" alt="EmailOctopus Socials" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <divider class="mx-auto mb-14 md:mb-24" />
@@ -152,19 +152,19 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Emailoctopus case study',
+    title: 'AndreaDN. | EmailOctopus case study',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'This is a portfolio',
+        content: 'EmailOctopus re-branding',
       },
     ],
   },
   setup() {
     const footerNav = [
-      footerNavEntries.ticket,
-      footerNavEntries.football
+      footerNavEntries.vector,
+      footerNavEntries.ticket
     ];
 
     return { footerNav };

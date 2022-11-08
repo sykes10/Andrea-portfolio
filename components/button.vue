@@ -1,6 +1,5 @@
 <template>
-  <button
-    class="
+  <button class="
       m-0
       bg-transparent
       border border-black
@@ -12,8 +11,15 @@
       font-bold
       md:h-13
       h-11
-    "
-  >
+      hover:bg-[#E9C3B3]
+      transition-colors
+      duration-300
+      hover:border-[#816E66]
+      outline-[#D99079]
+      outline-1
+      focus:outline
+      outline-offset-2
+    ">
     <slot></slot>
   </button>
 </template>

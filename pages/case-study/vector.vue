@@ -6,7 +6,7 @@
           <arrow-left />
         </app-button>
       </nuxt-link>
-      <a href="//emailoctopus.com/" target="_blank">
+      <a href="//vector-digital.co.uk/" target="_blank">
         <app-button class="flex items-center">
           Live site
           <open-in-new class="ml-2" />
@@ -15,118 +15,107 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/emailoctopus.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/vector/img-vector.png" alt="Vector design" loading="eager" fetchpriority="high"
           class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <h1 class="mb-8">Re-branding a trusted Email platform</h1>
+          <h1 class="mb-8">New brand for new beginnings</h1>
           <p class="mb-5">
-            After a few years building up success with little Otto - The
-            friendly octupus - on the side, EmailOctopus decided to push their
-            growth even more, by giving him and their brand a full makeover.
-            Having worked with them before for a refreshment of their lading
-            page, in Vector we had the oportunity to work with them again.
+            Vector is a London based Design agency specialized on SaaS products where I had the oportunity to work as a
+            UI/UX Designer for 3 years.
+          </p>
+          <p class="mb-5">
+            During these years we made small changes to the former site, but after a while we realized that Vector’s
+            brand was due to a redesign.
           </p>
           <p class="mb-6">
-            This project was done remotely from start to finish. Brand,
-            Marketing website and Social media presence where re-designed.
+            It wasn’t just a brand refreshment, Vector wanted to change, to grow and show its potential clients that
+            they are not just web designers, they are a now specialist SaaS design studio focussing on retention.
           </p>
           <span class="text-peach-500 uppercase">Branding - UX/UI Design</span>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-desktop-mobile.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/vector/img-v-desktop-mobile.png" alt="Vector Desktop Mobile design" loading="lazy"
           class="w-full" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h2 class="mb-8">The Beginning</h2>
           <p class="mb-5">
-            With the new values already established by the client, we made a
-            group of workshops to define the direction we wanted to take with
-            the brand and define a personality.
+            With the help of Treacle – a specialist brand and copy agency for agencies - Vector’s new positioning and
+            voice was on the way but its visual appearance was barely beginning.
           </p>
           <p>
-            We wanted a brand that could feel approchable, playfull, current and
-            simple. With the client on front telling their story.
+            We started to look out for keywords and concepts that would help us to bring the new vision to light. We
+            wanted the brand to be honest, inspirational, Fun and a little daring.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-map@2x.png" alt="emailoctopus design" loading="lazy"
-          class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h2 class="mb-8">Brand</h2>
-          <p>
-            We started this phase by developing a group of moodboards to define
-            an initial look and feel for the brand. From this we started to
-            sketch the new look for the little Otto, and explore colours and
-            graphic elements.
+          <p class="mb-5">
+            On the initial exploration I came up with 2 concepts for the visual language. The first one was thinking in
+            Vector as guides that would help your product to grow. The second one was more focused on retention and how
+            we wanted to help you (the client) to keep your users around you.
           </p>
+          <p class="mb-5">In terms of personality we juggle in between a quirky image or a more mature approach. A
+            quirky personality
+            was in-line with us internally, but a more mature look and feel felt like the right path to take if we
+            really wanted to grow and attract a broader target. </p>
+          <p>These three below where initial draft created to have an idea of the approach we wanted to take:</p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/vector/img-v-drafts.png" alt="vector drafts" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <p class="mb-5">
-            Brand wise, we agreed with the client an “Close to home” approach
-            insted of a complete change, keept their sea theme and created the
-            new visual language around it.
-          </p>
           <p>
-            The colour pallete was refreshed to a brigther one and a group of
-            illustrations were created to be applied across all the different
-            channels.
+            After a few back and forwards we decided that retention was more inline with the direction Treacle was
+            proposing and decided to represent this with “Orbits”, the client being the center and its users the
+            elements around it.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-brand@2x.png" alt="emailoctopus design" loading="lazy"
+        <video src="/video/vid-v-case.mp4" autoplay loop playsinline class="w-full mb-10 md:mb-14"></video>
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <p>
+            Along with the brand elements we also revamped the logo. We wanted something simple, with a little of
+            uniqueness that also displayed the company's full name.
+          </p>
+        </div>
+        <img src="/images/vector/img-v-logos.png" alt="vector logo before and after" loading="lazy"
+          class="w-full mb-10 md:mb-14" />
+        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
+          <p class="mb-5">
+            For colour I wanted to bring this idea of growth through the greens, introduce some warmth with yellow CTAs
+            and balance it out with a cream that would also help us to display projects with minimal colour clashes.
+          </p>
+          <p>In terms of typography we wanted something stylish that combined with the vibe we were looking for. We
+            picked Tenor Sans with its moderness and Work Sans for a bit of contrast.</p>
+        </div>
+        <img src="/images/vector/img-v-type-logo.png" alt="vector type colours" loading="lazy"
           class="w-full mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h2 class="mb-8">Website</h2>
-          <p>
-            Once the basic brand elements were defined we started to generate
-            wireframes and create components that were used as templates all
-            over the website. To balance the graphic’s quirky style, we used a
-            simple left and right layout to display text and graphic elements.
+          <p class="mb-5">
+            The website’s layout was designed alongside the brand elements. We wanted a layout that felt uncommon
+            without being hard to navigate.
           </p>
+          <p>For this reason I proposed a collapsable lateral navigation, it was uncommon compared with other agencies
+            we looked at but also has a familiarity with dashboards that are part of many Saas products.</p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-moodboards@2x.png" alt="emailoctopus design" loading="lazy"
+        <img src="/images/vector/img-v-layout.png" alt="vector layout design" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <p class="mb-5">
-            Brand wise, we agreed with the client an “Close to home” approach
-            insted of a complete change, keept their sea theme and created the
-            new visual language around it.
-          </p>
           <p>
-            The colour pallete was refreshed to a brigther one and a group of
-            illustrations were created to be applied across all the different
-            channels.
+            Along with our skills in visual design we also wanted to show potential clients that we were able to create
+            solutions that required extra thinking on behaviours and interactions.
           </p>
         </div>
-        <img src="~/assets/images/emailoctopus/img-eo-fulldesktop@2x.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
-        <img src="~/assets/images/emailoctopus/img-eo-mobile-group@2x.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
+        <video src="/video/vid-v-interaction.mp4" autoplay loop playsinline class="w-full mb-10 md:mb-14"></video>
         <p class="mb-10 md:mb-14 max-w-4xl mx-auto">
-          As mentioned previouly, one of the main objectives for the brand and
-          the website was to bring the client and their emails to the main
-          stage. We used real emails created by real clients across the website
-          and pushed their stories over the product features.
+          The case study pages where the most important pages to design. We wanted our case studies to have and impact
+          combining great imagery with animations.
         </p>
-        <img src="~/assets/images/emailoctopus/img-eo-elements@2x.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
-      </article>
-      <article class="mb-14 md:mb-24">
-        <div class="max-w-4xl mx-auto mb-10 md:mb-14">
-          <h2 class="mb-8">Social media kit</h2>
-          <p>
-            Along with the brand and website, we created a design system for
-            social media pieces. This piece of work included a detailed
-            styleguide and a a group of templated that can be use to generate
-            new pieces.
-          </p>
-        </div>
-        <img src="~/assets/images/emailoctopus/img-eo-socials@2x.png" alt="emailoctopus design" loading="lazy"
-          class="w-full mb-10 md:mb-14" />
+        <video src="/video/vid-v-case.mp4" autoplay loop playsinline class="w-full mb-10 md:mb-14"></video>
       </article>
       <divider class="mx-auto mb-14 md:mb-24" />
       <footer-nav :items="footerNav"></footer-nav>
@@ -152,19 +141,19 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Emailoctopus case study',
+    title: 'AndreaDN. | Vector case study',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'This is a portfolio',
+        content: 'Vector re-design case study',
       },
     ],
   },
   setup() {
     const footerNav = [
-      footerNavEntries.ticket,
-      footerNavEntries.football
+      footerNavEntries.octopus,
+      footerNavEntries.ticket
     ];
 
     return { footerNav };

@@ -9,7 +9,7 @@
     </section>
     <section>
       <article class="mb-14 md:mb-24">
-        <img src="~/assets/images/atriom/img-atriom.png" alt="small bussiness design" loading="lazy"
+        <img src="/images/atriom/img-atriom.png" alt="Atriom design" loading="eager" fetchpriority="high"
           class="w-full mb-10 md:mb-14" />
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <h1 class="mb-8">A startup looking for a clean and safe look</h1>
@@ -22,7 +22,7 @@
           </p>
           <span class="text-peach-500 uppercase">Branding - Illustration - UI Design - Web design</span>
         </div>
-        <img src="~/assets/images/atriom/img-at-desktop.png" alt="atriom design" loading="lazy"
+        <img src="/images/atriom/img-at-desktop.png" alt="Atriom Desktop" loading="lazy"
           class="w-full max-w-4xl mx-auto" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -35,7 +35,7 @@
             check the status of the documents.
           </p>
         </div>
-        <img src="~/assets/images/atriom/img-at-wires.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/atriom/img-at-wires.png" alt="Atriom wireframes" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -57,7 +57,7 @@
             simple illustrations and a bright colour pallet.
           </p>
         </div>
-        <img src="~/assets/images/atriom/img-at-full.png" alt="small-bussiness design" loading="lazy"
+        <img src="/images/atriom/img-at-full.png" alt="Atriom full page" loading="lazy"
           class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
       </article>
       <article class="mb-14 md:mb-24">
@@ -74,14 +74,14 @@
           <p class="mb-10 md:mb-14">
             User logs in with a given User and Password
           </p>
-          <img src="~/assets/images/atriom/img-at-step-1.png" alt="small-bussiness design" loading="lazy"
+          <img src="/images/atriom/img-at-step-1.png" alt="Atriom step 1" loading="lazy"
             class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
           <h3 class="mb-4">Step 2</h3>
           <p class="mb-10 md:mb-14">
             Gets instant access to their dashboard. Can see the status of the
             request and generate a new one
           </p>
-          <img src="~/assets/images/atriom/img-at-step-2.png" alt="small-bussiness design" loading="lazy"
+          <img src="/images/atriom/img-at-step-2.png" alt="Atriom step 2" loading="lazy"
             class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
           <h3 class="mb-4">Step 3</h3>
           <p class="mb-5">
@@ -91,7 +91,7 @@
             Atriom will quickly receive the request and start with the
             documentation process
           </p>
-          <img src="~/assets/images/atriom/img-at-step-3.png" alt="small-bussiness design" loading="lazy"
+          <img src="/images/atriom/img-at-step-3.png" alt="Atriom step 3" loading="lazy"
             class="w-full flex-shrink-0 flex-grow-0 mb-10 md:mb-14" />
         </div>
       </article>
@@ -119,7 +119,7 @@ export default defineComponent({
     FooterNav,
   },
   head: {
-    title: 'AndreaDN. | Ticket tailor case study',
+    title: 'AndreaDN. | Atriom case study',
 
   },
   setup() {
@@ -140,7 +140,7 @@ export default defineComponent({
       },
     ];
     const footerNav = [
-      footerNavEntries.ticket, footerNavEntries.octopus
+      footerNavEntries.vector, footerNavEntries.octopus
     ];
     return { stepsGrid, stepsGrid2, footerNav };
   },
