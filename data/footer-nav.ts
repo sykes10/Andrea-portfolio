@@ -6,7 +6,6 @@ export const footerNavEntries = {
         description: 'A new identity for a group of dreamers',
         tag: 'UX/UI Design',
     },
-
     'atriom': {
         to: 'atriom',
         img: 'img-at-preview',

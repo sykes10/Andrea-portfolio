@@ -72,7 +72,7 @@
             elements around it.
           </p>
         </div>
-        <video src="/video/vid-v-case.mp4" autoplay loop playsinline class="w-full mb-10 md:mb-14"></video>
+        <video src="/video/vid-v-orbit.mp4" autoplay loop playsinline class="w-full mb-10 md:mb-14"></video>
         <div class="max-w-4xl mx-auto mb-10 md:mb-14">
           <p>
             Along with the brand elements we also revamped the logo. We wanted something simple, with a little of

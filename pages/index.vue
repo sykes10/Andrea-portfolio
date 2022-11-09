@@ -11,7 +11,7 @@
         md:gap-12
         mx-auto
       ">
-      <img src="/images/andrea-header.png" alt="Andrea De Armas ilustration" class="w-4/5 md:w-100 h-full md:h-120" />
+      <img src="/images/andrea-header.png" alt="Andrea De Armas ilustration" class="w-4/5 md:w-100 h-full md:h-120" loading="eager" fetchpriority="high"/>
       <div class="mt-10 md:mt-0">
         <h1 class="mb-10 md:mb-13">
           That’s me on the back, a UI designer, geek and awkward tourist settle
